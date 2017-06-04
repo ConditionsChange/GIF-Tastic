@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GIFTastic</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="shortcut icon" href="https://yt3.ggpht.com/-RnDCi_3GfZ8/AAAAAAAAAAI/AAAAAAAAAAA/caQpG8xP_GY/s240-c-k-no-mo-rj-c0xffffff/photo.jpg" type="image/x-icon">
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+	<div class="container-fuid">
+		<div class="navbar-header">
+			<h1 style="color:white;margin:12px 0 0 15px;font-family: 'Open Sans', sans-serif;">GIFTASTIC</h1>
+		</div>
+		<form class="navbar-form navbar-right" style="margin:15px">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Add a topic">		
+					<div class="input-group-btn">
+						<button id="search" class="btn btn-info">Create Button</button>				
+					</div>
+			</div>
+		</form>
+	</div>	
+</nav>
+
+
+<div class="container container-fluid">
+	<div class="row">
+		<div class="col-md-12 jumbotron" style="font-family: 'Open Sans', sans-serif;">
+			<h2>Click on the buttons below to display a set of GIFs related to that topic. Click the GIFs to play and pause them. Add more buttons using the input above.</h2>
+		</div>
+	</div>
+	<div class="row"> <!-- This row is for the preloaded buttons -->
+		<div class="col-md-12 jumbotron btn-toolbar container-fluid" id="button-row" style="{ margin-top: 0; margin-bottom: 0 }">
+		</div>		
+	</div>	
+	<div class="row">
+		<div class="col-md-12 jumbotron" id="loaded-gifs" style="text-align:center"> <!-- This row is for the loaded GIFs -->
+		</div>		
+	</div>	
+	</div>
+
+</body>
+</html>
