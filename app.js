@@ -38,7 +38,7 @@ $(document).ready(function(){
 	//query the GIPHY API when any of the tvshow buttons are clicked 
 	$(document).on("click",".newsearches",function(){
 		$("#loaded-gifs").html(""); //clear the loaded gifs div
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + $(this).html().toLowerCase() + "&api_key=dc6zaTOxFJmzC";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + $(this).html().toLowerCase() + "&api_key=dc6zaTOxFJmzC";
 		$.ajax({
 		  url: queryURL,
 		  method: 'GET'
