@@ -49,7 +49,7 @@ $(document).ready(function(){
 			  console.log(response.data);
 			  //append GIFs onto the page with their ratings
 			  for (var i=0;i<=14;i++){
-				  	if (gifs[i].rating !=="pg-13" || gifs[i].rating !=="r"){ //filter out gifs
+				  	if (gifs[i].rating !=="pg-13" & gifs[i].rating !=="r"){ //filter out gifs
 					  	//create a new div and append the rating and image onto it
 					  	var newdiv = $("<div>");
 					  	newdiv.attr({style:"display:inline-block;text-align:center;margin:2px"});
