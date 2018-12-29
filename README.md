@@ -1,6 +1,6 @@
 # GIFTastic
 
-Live Demo: https://conditionschange.github.io/GIFTastic/
+Live Demo: https://conditionschange.github.io/GIF-Tastic/
 
 ![GIFTastic](https://raw.githubusercontent.com/ConditionsChange/GIFTastic/master/promotion/snapshots/GIFTastic%20snapshot.PNG)
 
